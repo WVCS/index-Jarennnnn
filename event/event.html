@@ -18,7 +18,6 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lsxtBA--6E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <style>
-
 }
 a{
   text-decoration: none;
@@ -66,8 +65,7 @@ img {
  }
 
 p {
-font-size: 100%;
-color: black;
+font-size: 50%
 }
 
 iframe {
@@ -75,11 +73,65 @@ iframe {
 
  }
 
-{
-
+body {
+  Background-color: gray;
+}
+.wrapper{
+  background-color: goldenrod;
+  background-transperency: 50%;
+  width: 99vw;
+  height: 90vw;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+img {
+  max-height: 70%;
+}
+.A{ /* height and width are set PIXELS */
+  background-color: orange;
+  border: dashed blue;
+  height: 100px;
+  width: 100px;
+}
+.B{ /* no specified size */
+  background-color: skyblue;
+  border-radius: 30%;
+  border: solid red;
+  height: 200px;
+  width: 200px;
+}
+.C {/* SIZED BY PERCENTAGES */
+  font-size: 200%;
+  border: solid pink;
+  height: 9%;
+  width: 10%;
+  color: yellow;
+}
+h1{
+  font-size: 3vw;
 }
 @media only screen and (max-width: 1024px) 
 {
-++++++
+  .wrapper{
+    flex-direction: column; 
+    background-color: antiquewhite;
+  }
+  
+  body{
+    background-color: black;
+  }
+  .A {
+    background-color: lavender;
+    border: solid white 40px;
+  }
+  .B{
+    font-size: 10px;
+    background-color: blue;
+    border: solid red 10px;
+  }
+  
+
+}
 
   </style>
