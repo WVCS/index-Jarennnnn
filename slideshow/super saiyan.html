@@ -1,4 +1,11 @@
 <html>
+
+<nav>
+<center>
+  <li><a href="index.html"> HOME  </li>
+  </nav>
+
+  <h1> I'M ABOUT TO GO SUPER SAIYAN </h1>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -37,6 +44,44 @@
 </html>
 
 <style>
+}
+a{
+  text-decoration: none;
+  color: black
+}
+li{
+  display: inline;
+  padding: 15px;
+}
+
+body {
+color: black
+}
+body {
+  background-color: white
+}
+td:hover {
+  background-color: gray
+}
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 120%;
+}
+
+h1 {
+color: white;
+text-align: center;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -124,7 +169,11 @@
   from {opacity: .4}
   to {opacity: 1}
 }
-</style>
+
+body {
+background-color: black;
+}
+  </style>
 
 <script>
 let slideIndex = 1;
@@ -155,4 +204,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-</script>
+
+  </script>
